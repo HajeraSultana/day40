@@ -1,5 +1,11 @@
-userDetails = { "name" : "Hajera Sultana", "dateOfBirth" : "13/10/1991", "contactNumber" : "07306280394", "email" : "e031306@gmil.com", "address" : "1 Canada Park Parade, London"}
+name = input("Name: "). strip().capitalize()
+dob = input("DOB: ").strip()
+tel = input("Telephone number: "). strip()
+email = input("Email: "). strip()
+address = input("Address: ").strip()
 
+userDetails = { "name" : name, "dateOfBirth" : dob, "contactNumber" : tel, "email" : email, "address" : address}
+print()
 print("Here's your contact card")
 print()
 print(f"Name: {userDetails['name']}")
